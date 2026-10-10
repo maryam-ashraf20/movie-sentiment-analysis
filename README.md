@@ -3,6 +3,13 @@
 ## Overview
 A machine learning application that classifies English movie reviews as positive or negative using Natural Language Processing (NLP).
 
+## 🚀 Live Demo
+
+Try the deployed application here:
+
+**[🎬 Movie Sentiment Analyzer — Live App](https://movie-sentiment-analysis-p6qoytgvdmrgcseyup9brg.streamlit.app/)**
+
+Enter an English movie review and see whether the model predicts a positive or negative sentiment.
 ## Features
 - Text cleaning and tokenization
 - Lemmatization using NLTK
