@@ -2,6 +2,12 @@ import re
 from nltk import pos_tag
 from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
+import nltk
+
+nltk.download("punkt_tab", quiet=True)
+nltk.download("wordnet", quiet=True)
+nltk.download("omw-1.4", quiet=True)
+nltk.download("averaged_perceptron_tagger_eng", quiet=True)
 
 def clean_text(text):
     text= text.lower()
